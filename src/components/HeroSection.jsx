@@ -6,7 +6,7 @@ import {
     FaTwitter,
 } from "react-icons/fa";
 import { Typewriter } from 'react-simple-typewriter';
-import photo from '../assets/myimage.png';
+import photo from '../assets/me.jpg';
 
 const HeroSection = () => {
     const myInfo = { currentlybuilding: "nextjs", expericence: "4+" };
