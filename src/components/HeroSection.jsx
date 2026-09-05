@@ -9,7 +9,7 @@ import { Typewriter } from 'react-simple-typewriter';
 import photo from '../assets/me.jpg';
 
 const HeroSection = () => {
-    const myInfo = { currentlybuilding: "nextjs", expericence: "4+" };
+    const myInfo = { currentlybuilding: "Next.js", expericence: "Eager to Learn" };
     const socialLinks = [
         {
             name: "GitHub",
@@ -51,13 +51,13 @@ const HeroSection = () => {
 
                     {/* Heading */}
                     <h1 className="mt-6 text-4xl md:text-6xl font-bold leading-tight">
-                        Crafting <br />
-                        digital <br />
-                        <span className="text-[#606060]">Experience as</span>
+                        Building <br />
+                        full-stack <br />
+                        <span className="text-[#606060]">web applications as</span>
                         <br />
                         <span className="text-white">
                             <Typewriter
-                                words={['Developer', 'Designer', 'Freelancer']}
+                                words={['MERN Developer', 'Full-Stack Developer', 'Problem Solver']}
                                 loop
                                 cursor
                                 typeSpeed={80}
@@ -69,8 +69,9 @@ const HeroSection = () => {
 
                     {/* Description */}
                     <p className="mt-6 text-gray-400 leading-relaxed">
-                        I'm Krish — a frontend developer & designer building elegant,
-                        performant interfaces for forward-thinking teams.
+                        I'm Krish — an aspiring Full-Stack MERN Developer passionate about learning and
+                        building web applications. I've built several projects with React, Node.js, Express,
+                        and MongoDB. Ready for my first internship or junior developer role.
                     </p>
 
                     {/* Buttons */}
@@ -134,10 +135,10 @@ const HeroSection = () => {
                                         bg-[rgba(22,22,22,0.9)] backdrop-blur-lg border border-[#ffffff26] rounded-full px-4 py-3 text-[12px]"
                         >
                             <div className="text-[10px] md:text-[12px] text-gray-400 tracking-wider mb-1">
-                                Experience
+                                Status
                             </div>
                             <div className="flex gap-1.5 items-center">
-                                <span className="text-[12px] md:text-[14px]">{myInfo.expericence} Years</span>
+                                <span className="text-[12px] md:text-[14px]">{myInfo.expericence}</span>
                             </div>
                         </div>
 

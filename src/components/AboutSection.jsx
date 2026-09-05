@@ -3,19 +3,19 @@ import React from "react";
 const AboutSection = () => {
     const stats = [
         {
+            value: "2025",
+            label: "Graduation Year",
+            desc: "BSc CSIT, Tribhuvan University",
+        },
+        {
             value: "4+",
-            label: "Years Experience",
-            desc: "Frontend & UI Design",
+            label: "Projects",
+            desc: "Full-Stack & Frontend Apps",
         },
         {
-            value: "48+",
-            label: "Projects Completed",
-            desc: "",
-        },
-        {
-            value: "30+",
-            label: "Happy Clients",
-            desc: "",
+            value: "3",
+            label: "Languages",
+            desc: "English, Nepali, Hindi",
         },
         {
             value: "Nepal",
@@ -43,27 +43,27 @@ const AboutSection = () => {
                     </p>
 
                     <h2 className="text-4xl md:text-5xl font-bold leading-tight mt-6">
-                        Turning ideas into <br />
-                        pixel-perfect reality
+                        Full-Stack Developer <br />
+                        passionate about <br />
+                        creating impact
                     </h2>
 
                     <div className="mt-8 space-y-6 text-gray-300 leading-relaxed">
                         <p>
-                            I'm <span className="text-white font-semibold">Krish Thakur</span>, a frontend developer
-                            with over 4 years of experience building beautiful,
-                            performant web applications. I specialize in creating
-                            seamless user experiences with a keen eye for design.
+                            I'm <span className="text-white font-semibold">Krish Thakur</span>, a passionate learner
+                            building full-stack web applications with React, Node.js, Express, and MongoDB.
+                            I'm a BSc CSIT student from Tribhuvan University, eager to launch my development career.
                         </p>
 
                         <p>
-                            I believe every pixel matters, every interaction should feel natural,
-                            and performance is a feature.
+                            I've completed several projects including an e-commerce platform with authentication
+                            and payments, a gym website, and this portfolio. I'm focused on mastering the MERN stack
+                            and building clean, functional applications.
                         </p>
 
                         <p>
-                            When I'm not coding, I'm exploring new design systems,
-                            contributing or experimenting with generative art
-                            and creative coding.
+                            I'm actively seeking my first internship or junior developer role where I can apply
+                            my skills, learn from experienced developers, and contribute to real-world projects.
                         </p>
                     </div>
                 </div>

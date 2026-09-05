@@ -4,36 +4,36 @@ const ServicesSection = () => {
 
     const services = [
         {
-            icon: '📱',
-            title: 'Responsive Web Design',
-            description: 'Pixel-perfect interfaces that look stunning on every device. From mobile-first foundations to complex responsive layouts with flawless breakpoints.',
-            skill1: 'Mobile-first',
-            skill2: 'Cross-browser',
-            skill3: 'Accessible',
+            icon: '⚛️',
+            title: 'Frontend Development',
+            description: 'Modern React applications with responsive design, Tailwind CSS, and smooth animations. Built for performance and great user experiences.',
+            skill1: 'React.js',
+            skill2: 'Tailwind CSS',
+            skill3: 'JavaScript',
         },
         {
-            icon: '⚡',
-            title: 'Frontend Development',
-            description: 'Modern React and Next.js applications with clean architecture, reusable components, TypeScript, and comprehensive testing strategies.',
-            skill1: 'React',
-            skill2: 'JavaScript',
-            skill3: 'Testing',
+            icon: '🔧',
+            title: 'Backend Development',
+            description: 'Robust Node.js and Express.js backends with RESTful APIs, authentication, JWT, and middleware. Secure and scalable server solutions.',
+            skill1: 'Node.js',
+            skill2: 'Express.js',
+            skill3: 'REST APIs',
+        },
+        {
+            icon: '🗄️',
+            title: 'Database Design',
+            description: 'MongoDB database design, schema optimization, and Mongoose integration. Building efficient data models and queries for web applications.',
+            skill1: 'MongoDB',
+            skill2: 'Mongoose',
+            skill3: 'Database Design',
         },
         {
             icon: '🚀',
-            title: 'Performance Optimization',
-            description: 'Auditing and optimizing existing applications for speed, Core Web Vitals, bundle size, and overall runtime performance excellence.',
-            skill1: 'Core Web Vitals',
-            skill2: 'SEO',
-            skill3: 'Bundle optimization',
-        },
-        {
-            icon: '🎨',
-            title: 'UI Implementation',
-            description: 'Transforming Figma designs into living, breathing interfaces with meticulous attention to detail, animations, and micro-interactions.',
-            skill1: 'Figma to code',
-            skill2: 'Animations',
-            skill3: 'Design systems',
+            title: 'Full-Stack Solutions',
+            description: 'Complete MERN stack applications with authentication, payment integration, admin dashboards, and real-time features end-to-end.',
+            skill1: 'MERN Stack',
+            skill2: 'E-Commerce',
+            skill3: 'Payment APIs',
         }
     ]
 
@@ -44,14 +44,14 @@ const ServicesSection = () => {
                 className='flex flex-col md:justify-between'>
                 <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-8 flex items-center gap-3">
                     <span className="w-8 h-px bg-gray-700"></span>
-                    WHAT I OFFER
+                    MY EXPERTISE
                 </p>
                 <h2 className="text-5xl md:text-6xl font-bold leading-tight mb-8 text-white">
-                    Services
+                    Full-Stack Services
                 </h2>
                 {/* Fix 1: Changed text-4 → text-base (valid Tailwind class) */}
                 <p className="text-gray-400 text-base leading-relaxed mb-12">
-                    Specialized frontend services built around quality, performance, and exceptional user experiences.
+                    End-to-end web development services covering frontend, backend, database, and complete MERN stack solutions.
                 </p>
             </div>
             <div

@@ -5,11 +5,14 @@ import {
     FaReact,
     FaGitAlt,
     FaGithub,
+    FaNode,
 } from "react-icons/fa";
 import {
     SiJavascript,
     SiTailwindcss,
     SiFramer,
+    SiMongodb,
+    SiExpress,
 } from "react-icons/si";
 
 
@@ -17,31 +20,33 @@ const SkillsSection = () => {
 
     const row1 = [
         { name: "React", icon: FaReact, color: "#58c4dc" },
+        { name: "Node.js", icon: FaNode, color: "#68a063" },
+        { name: "MongoDB", icon: SiMongodb, color: "#00ed64" },
+        { name: "Express.js", icon: SiExpress, color: "white" },
         { name: "Tailwind CSS", icon: SiTailwindcss, color: "#00bcff" },
-        { name: "Framer Motion", icon: SiFramer, color: "white" },
-        { name: "Git", icon: FaGitAlt, color: "#f05133" },
-        { name: "CSS3", icon: FaCss3Alt, color: "#1572b6" },
-        { name: "HTML5", icon: FaHtml5, color: "#e34f26" },
         { name: "JavaScript", icon: SiJavascript, color: "yellow" },
+        { name: "HTML5", icon: FaHtml5, color: "#e34f26" },
+        { name: "CSS3", icon: FaCss3Alt, color: "#1572b6" },
+        { name: "Git", icon: FaGitAlt, color: "#f05133" },
         { name: "GitHub", icon: FaGithub, color: "white" },
         { name: "React", icon: FaReact, color: "#58c4dc" },
+        { name: "Node.js", icon: FaNode, color: "#68a063" },
+        { name: "MongoDB", icon: SiMongodb, color: "#00ed64" },
+        { name: "Express.js", icon: SiExpress, color: "white" },
         { name: "Tailwind CSS", icon: SiTailwindcss, color: "#00bcff" },
-        { name: "Framer Motion", icon: SiFramer, color: "white" },
-        { name: "Git", icon: FaGitAlt, color: "#f05133" },
-        { name: "CSS3", icon: FaCss3Alt, color: "#1572b6" },
-        { name: "HTML5", icon: FaHtml5, color: "#e34f26" },
         { name: "JavaScript", icon: SiJavascript, color: "yellow" },
-        { name: "GitHub", icon: FaGithub, color: "white" },
     ];
 
     const skills = [
         { name: "React", icon: FaReact, color: "#58c4dc" },
-        { name: "Tailwind CSS", icon: SiTailwindcss, color: "#00bcff" },
-        { name: "Framer Motion", icon: SiFramer, color: "white" },
-        { name: "Git", icon: FaGitAlt, color: "#f05133" },
-        { name: "CSS3", icon: FaCss3Alt, color: "#1572b6" },
-        { name: "HTML5", icon: FaHtml5, color: "#e34f26" },
+        { name: "Node.js", icon: FaNode, color: "#68a063" },
+        { name: "MongoDB", icon: SiMongodb, color: "#00ed64" },
+        { name: "Express.js", icon: SiExpress, color: "white" },
         { name: "JavaScript", icon: SiJavascript, color: "yellow" },
+        { name: "Tailwind CSS", icon: SiTailwindcss, color: "#00bcff" },
+        { name: "HTML5", icon: FaHtml5, color: "#e34f26" },
+        { name: "CSS3", icon: FaCss3Alt, color: "#1572b6" },
+        { name: "Git", icon: FaGitAlt, color: "#f05133" },
         { name: "GitHub", icon: FaGithub, color: "white" },
     ];
     return (
@@ -56,7 +61,7 @@ const SkillsSection = () => {
                     Tools I Work With
                 </h2>
                 <p className="text-gray-400 text-4 leading-relaxed mb-12">
-                    A curated stack of modern technologies I use to build exceptional digital products.
+                    Full-stack technologies including frontend, backend, and database solutions for building complete web applications.
                 </p>
             </div>
 
