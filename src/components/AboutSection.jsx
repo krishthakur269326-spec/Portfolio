@@ -3,7 +3,7 @@ import React from "react";
 const AboutSection = () => {
     const stats = [
         {
-            value: "2025",
+            value: "2029",
             label: "Graduation Year",
             desc: "BSc CSIT, Tribhuvan University",
         },

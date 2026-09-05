@@ -99,6 +99,7 @@ const ProjectSection = () => {
                 </p>
                 <a
                   href={`${project.link}`}
+                  target="_blank"
                   className="text-[grey] hover:text-white transition"
                 >
                   <ExternalLink />
