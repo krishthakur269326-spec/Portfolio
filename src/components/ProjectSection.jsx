@@ -15,6 +15,17 @@ const ProjectSection = () => {
       bgcolor2: "#0f0f23",
     },
     {
+      icon: "⚡",
+      tool1: "SOCKET-IO",
+      tool2: "CLERK",
+      title: "Spotify Clone",
+      description:
+        "This is a spotify clone which uses clerk authentication for user management and has chat and user activity feature",
+      link: "https://spotify-frontend-2e8l.onrender.com/",
+      bgcolor1: "#1a2f1a",
+      bgcolor2: "#0f1a0f",
+    },
+    {
       icon: "🎬",
       tool1: "REACT",
       tool2: "AI API",
@@ -25,17 +36,7 @@ const ProjectSection = () => {
       bgcolor1: "#1a1f2c",
       bgcolor2: "#0f1319",
     },
-    {
-      icon: "💪",
-      tool1: "REACT",
-      tool2: "TAILWIND CSS",
-      title: "Static Gym Website",
-      description:
-        "Responsive gym website showcasing membership plans, events, gallery, and contact features with modern UI design.",
-      link: "https://gym-website2-iota.vercel.app/",
-      bgcolor1: "#1a2f1a",
-      bgcolor2: "#0f1a0f",
-    },
+    
   ];
 
   return (
