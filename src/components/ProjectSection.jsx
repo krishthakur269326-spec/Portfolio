@@ -21,7 +21,7 @@ const ProjectSection = () => {
       title: "Spotify Clone",
       description:
         "This is a spotify clone which uses clerk authentication for user management and has chat and user activity feature",
-      link: "https://spotify-frontend-2e8l.onrender.com/",
+      link: "https://spotify-frontend-ll66.onrender.com/",
       bgcolor1: "#1a2f1a",
       bgcolor2: "#0f1a0f",
     },
