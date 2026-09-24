@@ -10,7 +10,7 @@ const ProjectSection = () => {
       title: "E-Commerce Platform",
       description:
         "Full-stack MERN platform with authentication, products, cart, checkout, orders, and payment integration via eSewa.",
-      link: "https://e-commerce-frontend-okdi.onrender.com/",
+      link: "https://e-commerce-frontend-tjtf.onrender.com/",
       bgcolor1: "#1a1a3e",
       bgcolor2: "#0f0f23",
     },
